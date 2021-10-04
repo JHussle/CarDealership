@@ -30,3 +30,4 @@ class Customer:
             self.__vetDisabled = vetDisabled
     def get_vetDisabled(self):
         return self.__vetDisabled
+        ###this is the end ###
