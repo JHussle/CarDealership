@@ -1,6 +1,6 @@
 import dealerSQLOps as sql
 from os import system 
-from Customer import Customer
+from customer import Customer
 system('cls')
 
 def listCarsOp():
