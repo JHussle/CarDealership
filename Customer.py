@@ -1,9 +1,10 @@
 class Customer:
-    def __init__(self, fName, lName, phone, email):
+    def __init__(self, fName, lName, phone, email, vetDisabled):
         self.fName = fName
         self.lName = lName
         self.phone = phone
         self.email = email
+        self.vetDisabled = vetDisabled
         
     def set_fName(self, fName):
         self.__fName = fName
@@ -24,3 +25,8 @@ class Customer:
             self.__email = email
     def get_email(self):
         return self.__email
+    
+    def set_vetDisabled(self, vetDisabled):
+            self.__vetDisabled = vetDisabled
+    def get_vetDisabled(self):
+        return self.__vetDisabled
