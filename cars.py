@@ -1,7 +1,10 @@
 #Car object
 class Car:
+    #Class Attributes
+    wheels = 4
     # initializer
-    def  __init__(self, style, make, model, year, color):
+    def  __init__(self, brand, style, make, model, year, color):
+        self.brand = brand
         self.style = style
         self.make = make
         self.model = model
